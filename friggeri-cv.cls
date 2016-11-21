@@ -46,7 +46,7 @@
 %%%%%%%%%
 % Fonts %
 %%%%%%%%%
-
+\RequirePackage{graphicx}
 \RequirePackage[quiet]{fontspec}
 \RequirePackage[math-style=TeX,vargreek-shape=unicode]{unicode-math}
 
@@ -93,6 +93,7 @@
 %%%%%%%%%%%%%
 \RequirePackage{parskip}
 
+
 \newcounter{colorCounter}
 \def\@sectioncolor#1#2#3{%
   {%
@@ -116,7 +117,7 @@
     \LARGE\headingfont\color{headercolor}%
     \@sectioncolor #1%
   }
-  \par\vspace{\parskip}
+  \par\vspace{0.8\parskip}
 }
 
 \renewcommand{\subsection}[1]{

@@ -146,12 +146,12 @@
   \end{tabular*}
 }
 \renewcommand{\bfseries}{\headingfont\color{headercolor}}
-\newcommand{\entry}[4]{\vspace{5pt}%
-  \parbox[t]{3.5cm}{\raggedleft #1}&\parbox[t]{10cm}{%
-    \textbf{#2}%
+\newcommand{\entry}[5][12cm]{\vspace{5pt}%
+  \parbox[t]{3.5cm}{\raggedleft #2}&\parbox[t]{#1}{%
+    \textbf{#3}%
     \hfill%
-    {\footnotesize\addfontfeature{Color=lightgray} #3}\\%
-    \raggedright \hyphenpenalty=10000 \exhyphenpenalty=10000 #4\vspace{\parsep}%
+    {\footnotesize\addfontfeature{Color=lightgray} #4}\\%
+    \raggedright \hyphenpenalty=10000 \exhyphenpenalty=10000 #5%
   }\\}
 
 

@@ -19,8 +19,11 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\documentclass[]{friggeri-cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
-
+\ifdefined\ccc
+	\documentclass[]{friggeri-cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
+\else
+	\documentclass[print]{friggeri-cv}
+\fi
 
 
 
@@ -229,8 +232,8 @@ MSBuild , Jenkins Microsoft Build Tools etc}
 {Data Lake}
 {Globalsoft, Bengaluru}
 {Building a Easy to use Data Ingestion status Visualiser \\
-\textbf{Role:} Architecturing And Building Both Front End and Back End.\\
-\textbf{Technologies Used:} Project is in Design Phase}
+\textbf{Role:} Building Web Services connecting cassandra cluster and Hive Meta.\\
+\textbf{Technologies Used:} Scala , Play Framework , Phantom , Slick }
 \end{entrylist}
 
 

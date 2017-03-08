@@ -164,3 +164,9 @@ TSWLatexianTemp*
 
 !resume_color.pdf
 !resume_bw.pdf
+
+
+*.mp
+*.tmp
+*.tui
+*.tuo

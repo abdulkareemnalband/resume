@@ -1,0 +1,26 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Abdulkareem Nalband",
+    "label": "Technical Architecture",
+    "email": "abdulkareem.sn15@gmail.com",
+    "location": {
+      "address": "#77, 1st Cross Reliable Residency Phase 3 ,HARALURU",
+      "city": "Bengaluru",
+      "region": "Karnataka",
+      "countryCode": "IN"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "url": "https://github.com/abdulkareemnalband",
+        "username": "abdulkareemnalband"
+      },
+      {
+        "network": "Linkedin",
+        "url": "https://www.linkedin.com/in/abdulkareemsn/",
+        "username": "abdulkareemsn"
+      }
+    ]
+  }
+}

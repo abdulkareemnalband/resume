@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "pdf": "resume export resume.pdf"
+    "pdf": "resume export resume.pdf",
+    "html": "resume export resume.html",
+    "serve": "resume serve"
   },
   "author": "",
   "license": "ISC",

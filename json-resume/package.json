@@ -16,9 +16,9 @@
     "puppeteer": "24.17.0",
     "browser-sync": "3.0.4",
     "jest-extended": "file:./override/update-notifier",
-    "quaff": "file:./override/update-notifier",
     "markdown-it": "12.3.2",
     "pug": "3.0.3",
-    "pug-code-gen": "3.0.3"
+    "pug-code-gen": "3.0.3",
+    "dset": "3.1.4"
   }
 }

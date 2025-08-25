@@ -1,0 +1,10 @@
+{
+    "name": "update-notifier",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "module": "index.mjs",
+    "scripts": {},
+    "author": "",
+    "license": "ISC"
+}
